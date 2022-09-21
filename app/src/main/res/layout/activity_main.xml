@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="362dp"
+        android:text="Mayor" />
+
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="431dp"
+        android:text="Limpiar" />
+
+    <TextView
+        android:id="@+id/lblN1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:minHeight="48dp"
+        android:text="Primer número" />
+
+    <TextView
+        android:id="@+id/lblN2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="141dp"
+        android:minHeight="48dp"
+        android:text="Segundo número" />
+
+    <TextView
+        android:id="@+id/lblN3"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="213dp"
+        android:minHeight="48dp"
+        android:text="Tercer número" />
+
+    <EditText
+        android:id="@+id/tfN1"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="50dp"
+        android:text="0"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/tfN2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="130dp"
+        android:text="0"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/tfN3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="200dp"
+        android:text="0"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="298dp"
+        android:minHeight="48dp"
+        android:text="Resultado"
+        android:textSize="16dp" />
+
+</RelativeLayout>
